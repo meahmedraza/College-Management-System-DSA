@@ -1,0 +1,7 @@
+
+031,861633-ahmed,cs,20
+16,fds-al,bse,17
+15,vcx-mohsin,bit,18
+98,poi-library,cse,18
+13,tre-asadd,it,18
+1,123-ali,se,20
