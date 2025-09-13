@@ -1,53 +1,71 @@
-# College Management System (DSA Project)
+# 📚 College Management System (DSA Project)
 
-## 📖 Introduction
-The **College Management System** is designed to manage and automate essential academic and administrative tasks of an educational institute.  
-This project demonstrates the use of **Data Structures and Algorithms (DSA)** concepts to handle data efficiently.  
-
-It allows:
-- Admins to manage records of students, teachers, and staff.  
-- Teachers to update results, attendance, and personal details.  
-- Students to view results, fee details, timetable, academic calendar, and print roll number slips.  
+A **console-based College Management System** implemented in **C++** using **Data Structures and Algorithms (DSA)** concepts.  
+This project simulates basic operations for students, teachers, and administrators in a university/college environment.
 
 ---
 
-## 🎯 Objectives
-- Provide a digital management solution for college administration.  
-- Reduce time spent on manual record handling.  
-- Ensure accuracy, consistency, and quick access to information.  
-- Support students, teachers, and administrators with role-specific functionality.  
+## 🚀 Features
+- 👨‍🎓 **Student Management**
+  - Add, update, search, and delete student records.
+  - Store and retrieve marks/grades.
+  - Maintain student login functionality.
+
+- 👨‍🏫 **Teacher Management**
+  - Manage teacher records (add, update, delete).
+  - Assign courses and track attendance.
+  - Teacher-specific login system.
+
+- 🏫 **Admin Panel**
+  - Admin authentication with logs.
+  - Manage all users (students/teachers).
+  - Access reports and system logs.
+
+- 📑 **File Handling**
+  - Data stored in `.txt` files (`student.txt`, `teacher.txt`, `Marks.txt`, `Admin_logs.txt`).
+  - Persistent storage across multiple runs.
 
 ---
 
-## 🛠️ Features
-### 👨‍🎓 Student
-- View results, attendance, timetable, and fee details.  
-- Access academic calendar, rules & regulations.  
-- Print roll number slips.  
-- Fill course evaluation forms and provide feedback.  
+## 🗂 Project Structure
+/DS_PROJECT
+│── /uni_managment
 
-### 👨‍🏫 Teacher
-- Update student results (assignments, quizzes, midterm, final).  
-- Manage daily attendance.  
-- Update personal details.  
-- Access student records across semesters.  
+│ ├── projectt.cpp # Main source code
 
-### 🏫 Admin
-- Add, modify, search, and delete records (students, teachers, staff).  
-- Manage fee records, salary details, exam data, and course information.  
-- Full control over system data and updates.  
+│ ├── student.txt # Student records
+
+│ ├── teacher.txt # Teacher records
+
+│ ├── Marks.txt # Marks data
+
+│ ├── Admin_logs.txt # Admin login history
+
+│ ├── uni_managment.vcxproj # Visual Studio project file
+
+│ └── uni_managment.sln # Solution file
+│
+├── /Debug # Debug build files
+
+├── /Release # Release build files
+
+└── /x64/Debug # 64-bit debug build files
+
+---
 
 ---
 
-## 📂 Project Structure
-College-Management-System-DSA/
-│── src/ # Source code (C++ / other language)
-│── reports/ # Project documentation & reports
-│── assets/ # Diagrams, screenshots, etc.
-│── README.md # Project description
+## ⚙️ How to Run
+1. Clone this repository:
+   git clone https://github.com/your-username/College-Management-System-DSA.git
 
+Open the solution in Visual Studio (uni_managment.sln).
 
----
+Build the project (Debug/Release).
+
+Run the executable:
+./DS_PROJECT/uni_managment/projectt.exe
+
 
 ## 📊 System Features (Modules)
 1. **Login System** – Admin, teacher, and student login.  
@@ -62,7 +80,7 @@ College-Management-System-DSA/
 ## 📑 Deliverables
 - Source code implementing the system.  
 - Project report with objectives, background, design, and implementation.  
-- Lab/documentation files with supporting diagrams.  
+- Lab/documentation files with supporting diagrams.
 
 ---
 
@@ -81,7 +99,7 @@ College-Management-System-DSA/
 ---
 
 ## 👥 Group Members
-- **Ahmed Raza**  
+- **Ahmed Raza (Project Lead & Developer)**  
 
 ---
 
